@@ -1,10 +1,13 @@
 {
-  "require":{
-  },
   "autoload":{
     "psr-4":{
       "Alab\\": "src/"
     }
+  },
+  "require":{
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
   },
   "scripts": {
     "cli-test": "php cli-test.php",

@@ -1,0 +1,13 @@
+{
+  "require":{
+  },
+  "autoload":{
+    "psr-4":{
+      "Alab\\": "src/"
+    }
+  },
+  "scripts": {
+    "cli-test": "php cli-test.php",
+    "autoloader-test": "php autoloader-test.php"
+  }
+}

@@ -1,10 +1,10 @@
-#Appunti sul PHP 7.4
 
-####2020 Alessandro Lanni
+## Appunti sul PHP 7.4
+##### di Alessandro Lanni, prima versione Marzo 2020
 
 ### PHP su Docker
 
-#####PHP 7.4
+##### PHP 7.4
 
 Nelle directory php7.4 e php5.6 trovi i files `Dockerfile` e `docker-compose.yml`;
 puoi procedere con questi comandi per avviare il servizio:

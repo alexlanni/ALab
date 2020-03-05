@@ -87,3 +87,27 @@ Installare mediante composer:
 ````
 docker-compose exec lab composer require --dev phpunit/phpunit ^9.0
 ````
+
+Per lanciare un test definito nel file `phpunit.xml` usando il container Docker, puoi usare questo comando:
+
+````
+docker-compose exec lab ./vendor/bin/phpunit
+````
+
+Per lanciare solo un testsuite, usare il comando:
+
+````
+docker-compose exec lab ./vendor/bin/phpunit --testsuite basic
+````
+
+Per avere un feedback a video migliore, usare l'opzione:
+
+````
+--colors=auto
+````
+
+Per generare un file Textdox, nei vari formati:
+
+````
+--testdox-html <file>
+````

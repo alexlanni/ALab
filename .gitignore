@@ -1,2 +1,4 @@
 /php7.4/vendor/
 /php5.6/vendor/
+/php7.4/composer.lock
+/php7.4/coverage.html

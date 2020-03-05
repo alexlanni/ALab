@@ -1,0 +1,10 @@
+<phpunit bootstrap="test-autoload.php">
+    <testsuites>
+        <testsuite name="basic">
+            <file>tests/Alab/BasicTest.php</file>
+        </testsuite>
+        <testsuite name="datadriven">
+            <file>tests/Alab/DataTest.php</file>
+        </testsuite>
+    </testsuites>
+</phpunit>

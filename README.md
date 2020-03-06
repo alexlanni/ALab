@@ -121,3 +121,17 @@ Per generare un file Textdox, nei vari formati:
 #### API result cache 
 
 ### Doctrine
+
+### Build script
+
+https://www.phing.info/
+
+
+### Git Hooks
+
+https://git-scm.com/book/it/v2/Customizing-Git-Git-Hooks
+
+````
+ls -al .git/hooks
+````
+

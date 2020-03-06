@@ -111,3 +111,13 @@ Per generare un file Textdox, nei vari formati:
 ````
 --testdox-html <file>
 ````
+
+### Caching System
+
+#### OP Cache
+
+#### Redis
+
+#### API result cache 
+
+### Doctrine

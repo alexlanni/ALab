@@ -5,5 +5,45 @@
       <PhpCSConfiguration standards="MySource;PEAR;PSR1;PSR12;PSR2;Squiz;Zend" tool_path="$USER_HOME$/.composer/vendor/bin/phpcs" />
     </phpcs_settings>
   </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/php7.4/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/php7.4/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/php7.4/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/php7.4/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/php7.4/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/php7.4/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/php7.4/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/php7.4/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/php7.4/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/php7.4/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/php7.4/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/php7.4/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/php7.4/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/php7.4/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/php7.4/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/php7.4/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/php7.4/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/php7.4/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/php7.4/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/php7.4/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/php7.4/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/php7.4/vendor/composer" />
+      <path value="$PROJECT_DIR$/php7.4/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/php7.4/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/php7.4/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/php7.4/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/php7.4/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/php7.4/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/php7.4/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/php7.4/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/php7.4/vendor/sebastian/version" />
+    </include_path>
+  </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.3" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/php7.4/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
 </project>

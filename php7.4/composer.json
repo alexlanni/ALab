@@ -11,6 +11,7 @@
   },
   "scripts": {
     "cli-test": "php cli-test.php",
+    "datetime-test": "php datetime-tests.php",
     "autoloader-test": "php autoloader-test.php"
   }
 }

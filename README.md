@@ -77,6 +77,27 @@ RUN yes | pecl install xdebug \
     && echo "xdebug.remote_autostart=on" >> /usr/local/etc/php/conf.d/xdebug.ini \
     && echo "xdebug.remote_connect_back=on" >> /usr/local/etc/php/conf.d/xdebug.ini
 ````
+#### Profiler
+
+Per abilitare il profiler, modificare il valore di:
+
+````
+profiler_enable_trigger = 1
+````
+
+Nel Dockerfile e' gia' settato. Per invocare il  profiler, aggiungere il parametro:
+
+````
+XDEBUG_PROFILE=1
+````
+
+A $_GET, $_POST o $_COOKIE. Per invocarlo da cli:
+
+````
+docker-compose exec lab php -d "xdebug.profiler_enable=On" -d "xdebug.profiler_output_dir=/var/www/profilerout" script.php
+````
+
+
 
 Configurare il debugger di PHPStorm in modo standard per utilizzare il container.
 
@@ -138,3 +159,10 @@ ls -al .git/hooks
 ### Approfondimenti
 
 * \DateTime -  php7.4/datetime-tests.php 
+* Generators - php7.4/generators-test.php
+    * Invocare il profiler per ispezionare le differenze: 
+        ````
+        docker-compose exec lab php -d "xdebug.profiler_enable=On" -d "xdebug.profiler_output_dir=/var/www/profilerout" generators-test.php
+        ````
+* Generators Delegation - php7.4/generators-delegation.php
+  

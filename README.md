@@ -152,8 +152,17 @@ https://www.phing.info/
 
 https://git-scm.com/book/it/v2/Customizing-Git-Git-Hooks
 
+E' stata creata la directory:
+
 ````
-ls -al .git/hooks
+php7.4/commit-scripts
+````
+
+Un cui saranno collofati gli scirpts git-hooks.
+Questi script vanno copiati o linkati (ln -s) nella directory:
+
+````
+.git/hooks
 ````
 
 ### Approfondimenti

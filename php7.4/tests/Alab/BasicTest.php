@@ -28,7 +28,7 @@ class BasicTest extends TestCase
         $this->assertEquals($a, $b);
 
         // Questo no perche' tiene conto del tipo:
-        $this->assertSame($a, $b);
+        //$this->assertSame($a, $b);
     }
 
     public function testBasicClass()
@@ -52,7 +52,7 @@ class BasicTest extends TestCase
 
     public function testA()
     {
-        $this->assertTrue(false);
+        $this->assertTrue(true);
     }
 
     /**

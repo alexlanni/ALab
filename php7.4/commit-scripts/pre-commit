@@ -1,0 +1,14 @@
+#!/bin/sh
+#
+# Crea un link simbolico nella directory .git/hooks
+
+cd php7.4
+
+docker-compose exec -T lab composer punit
+
+exit_status=$?
+if [ $exit_status -eq 1 ]; then
+    echo "Error in PHPUnit  tasks! Commit aborted"
+fi
+
+exit $exit_status

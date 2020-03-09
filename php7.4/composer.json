@@ -1,4 +1,13 @@
 {
+  "name": "Alab",
+  "description": "Raccolta di appunti su PHP, Composer e Docker",
+  "authors": [
+    {
+      "name": "Alessandro Lanni",
+      "email": "me@alessandrolanni.net",
+      "homepage": "http://alessandrolanni.net/"
+    }
+  ],
   "autoload":{
     "psr-4":{
       "Alab\\": "src/"
@@ -10,6 +19,7 @@
     "phpunit/phpunit": "^9.0"
   },
   "scripts": {
+    "punit": "./vendor/bin/phpunit",
     "cli-test": "php cli-test.php",
     "datetime-test": "php datetime-tests.php",
     "autoloader-test": "php autoloader-test.php"

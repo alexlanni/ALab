@@ -143,10 +143,38 @@ Per generare un file Textdox, nei vari formati:
 
 ### Doctrine
 
+### phpDocumentor
+
+Per la generazione della documentazione puoi installare phpDocumentor.
+Si puo' installare mediante composer, sia globalmente che nel progetto (usanto i require-dev).
+
+Installazione global (home dell'utente):
+
+````
+composer global require phpdocumentor/phpdocumentor
+````
+
+Installazione nel progetto, usando il require-dev:
+
+````
+docker-compose exec lab composer require --dev phpdocumentor/phpdocumentor
+````
+
+Ad installazione terminata, puoi generare la documentazione usando questo comando:
+
+````
+~/.composer/vendor/bin/phpdoc -d ./src -t ./docs
+```` 
+
+Dove `-d ./src` e' la directory che contiene i sorgenti e `-t ./docs` e' la directory di destinazione.
+
+Il comando ritornera' un messaggio di successo o di errore in base alle eventuali anomalie individuate nei sorgenti.
+Se un file ha delle anomalie, non comparira' nella documentazione generata. 
+
+
 ### Phing Build script
 
 https://www.phing.info/
-
 
 ### Git Hooks
 
